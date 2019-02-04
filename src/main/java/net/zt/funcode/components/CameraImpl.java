@@ -13,6 +13,7 @@ public class CameraImpl implements Camera {
 	
 	
 	@Autowired
+	@Qualifier("cameraRoll")
 	private CameraRoll cameraRoll;
 	
 	@Value("false")

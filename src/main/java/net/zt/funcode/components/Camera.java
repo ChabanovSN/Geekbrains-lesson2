@@ -7,6 +7,6 @@ public interface Camera {
 	void doPhotograph();
 	void breaking();
 	boolean isBroken();
-	public void ready();
+	void ready();
 
 }

@@ -4,8 +4,8 @@ import org.springframework.stereotype.Component;
 
 import net.zt.funcode.annotation.UnproducableCameraRoll;
 
-@Component("cameraRoll")
-@UnproducableCameraRoll(usingCameraRollClass=ColorCameraRoll.class)
+//@Component("cameraRoll")
+//@UnproducableCameraRoll(usingCameraRollClass=ColorCameraRoll.class)
 public class BlackAndWhiteCameraRoll implements CameraRoll {
 	
 	
